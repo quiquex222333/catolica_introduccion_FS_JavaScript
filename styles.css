@@ -91,13 +91,23 @@ body {
   margin-bottom: 10px;
 }
 
-.posterior button:hover {
-  background-color: #0056b3;
-}
-/* Voltear la tarjeta cuando se hace clic en Detalles */
-.tarjeta:hover .frontal {
-  transform: rotateY(180deg); /* Voltea la cara frontal */
-}
-.tarjeta:hover .posterior {
-  transform: rotateY(0deg); /* Muestra la cara posterior */
-}
+.posterior button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+/* Voltear la tarjeta cuando se hace clic en Detalles */ 
+/* Voltea la cara frontal */
+/* .tarjeta:hover .frontal {
+  transform: rotateY(180deg);
+} */
+/* Muestra la cara posterior */
+/* .tarjeta:hover .posterior {
+  transform: rotateY(0deg);
+} */
